@@ -22,9 +22,11 @@
      display: flex;
      gap: 20px;
  }
+ ul li {
+     list-style: none;
+ }
 
 li a {
-    list-style: none;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
