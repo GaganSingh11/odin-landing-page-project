@@ -86,10 +86,7 @@ li a {
     from {margin-bottom: 0px;}
     to {margin-bottom: -60px;}  
 }
-/* .right img:hover {
-    transform: rotate(-20deg);
-    margin-bottom: -100px;
-} */
+
 .left {
     width: 450px;
 }
@@ -192,15 +189,24 @@ li a {
 
 /* go back up arrow */
 .go-up {
-    background-color: #3882f6;
     display: inline;
-    font-size: 60px;
-    color: white;
-    border-radius: 60px;
+    font-size: 100px;
     cursor: pointer;
 
     position: fixed;
     z-index: +1;
     bottom: 0;
     right: 0;
+
+    animation: arrow-up 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.go-up a {
+    text-decoration: none;
+    color: red;
+}
+@keyframes arrow-up {
+    from {margin-bottom: 0px;}
+    to {margin-bottom: 40px;}
 }
