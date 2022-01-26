@@ -65,6 +65,7 @@ li a {
     margin-top: 10px;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
 }
 .left button:hover {
     background-color: #0a4db8;
@@ -170,15 +171,26 @@ li a {
     border-color: white;
     border-radius: 6px;
     padding: 10px 40px;
+    cursor: pointer;
 }
 .blue-box button:hover {
     background-color: #0a4db8;
 }
 
+/* footer-section */
+.footer-section {
+    background-color: #1f2937;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* go back up arrow */
 .go-up {
-    background-color: #1f2937;
+    background-color: #3882f6;
     display: inline;
     font-size: 60px;
     color: white;
