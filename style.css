@@ -139,7 +139,42 @@ li a {
 .action {
     background-color: white;
     height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.blue-box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 400px;
+    border-radius: 10px;
+    gap: 150px;
+}
+.blue-box .left .right {
+    width: 500px;
+}
+
+.blue-box .left {
+    color: white;
+}
+.blue-box .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-box button {
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 6px;
+    padding: 10px 40px;
+}
+.blue-box button:hover {
+    background-color: #0a4db8;
+}
+
 
 /* go back up arrow */
 .go-up {
