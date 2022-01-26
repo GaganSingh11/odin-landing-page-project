@@ -140,3 +140,18 @@ li a {
     background-color: white;
     height: 50vh;
 }
+
+/* go back up arrow */
+.go-up {
+    background-color: #1f2937;
+    display: inline;
+    font-size: 60px;
+    color: white;
+    border-radius: 60px;
+    cursor: pointer;
+
+    position: fixed;
+    z-index: +1;
+    bottom: 0;
+    right: 0;
+}
