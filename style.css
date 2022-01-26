@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar */
+.nav-bar {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+ ul {
+     display: flex;
+     gap: 20px;
+ }
+
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+/* hero-box  */
+
+.hero-box {
+    background-color: #1f2937;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.left p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+.left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.left button:hover {
+    background-color: #0a4db8;
+}
+.right img {
+    width: 400px;
+    height: auto;
+    margin-top: 42px;
+    animation: dog-joy .7s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* transition: 1s; */
+
+}
+@keyframes dog-joy {
+    from {margin-bottom: 0px;}
+    to {margin-bottom: -60px;}  
+}
+/* .right img:hover {
+    transform: rotate(-20deg);
+    margin-bottom: -100px;
+} */
+.left {
+    width: 450px;
+}
+
+/* gallery-section */
+.gallery-section {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-section h1 {
+    margin-bottom: 82px;
+    font-weight: bolder;
+}
+.image-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .2s;
+}
+.image-box img:hover {
+    transform: scale(1.2);
+}
+
+/* qoute-box */
+.qoute-box {
+    background-color:#E5E7EB ;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qoute-box  p {
+    width: 50vw;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.qoute-box span {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* call to action div */
+.action {
+    background-color: white;
+    height: 50vh;
+}
